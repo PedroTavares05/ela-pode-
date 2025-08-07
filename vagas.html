@@ -1,0 +1,235 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+      style='--select-button-svg: url(&apos;data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(111,99,136)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e&apos;); font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f2f0f4] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#131118]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#131118] text-lg font-bold leading-tight tracking-[-0.015em]">Ela Pode +</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#131118] text-sm font-medium leading-normal" href="index.html">Home</a>
+              <a class="text-[#131118] text-sm font-medium leading-normal" href="cursos.html">Courses</a>
+              <a class="text-[#131118] text-sm font-medium leading-normal" href="vagas.html">Opportunities</a>
+              <a class="text-[#131118] text-sm font-medium leading-normal" href="forum.html">Community</a>
+              <a class="text-[#131118] text-sm font-medium leading-normal" href="chat_bot.html">Chat bot</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#7d47ea] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Sign up</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#f2f0f4] text-[#131118] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Login</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#131118] tracking-light text-[32px] font-bold leading-tight">Opportunities</p>
+                <p class="text-[#6f6388] text-sm font-normal leading-normal">Find the perfect opportunity for you</p>
+              </div>
+            </div>
+            <div class="px-4 py-3">
+              <label class="flex flex-col min-w-40 h-12 w-full">
+                <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                  <div
+                    class="text-[#6f6388] flex border-none bg-[#f2f0f4] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Search for opportunities"
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#131118] focus:outline-0 focus:ring-0 border-none bg-[#f2f0f4] focus:border-none h-full placeholder:text-[#6f6388] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
+            </div>
+            <h3 class="text-[#131118] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Filters</h3>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#131118] focus:outline-0 focus:ring-0 border border-[#dfdce5] bg-white focus:border-[#dfdce5] h-14 bg-[image:--select-button-svg] placeholder:text-[#6f6388] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Region</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#131118] focus:outline-0 focus:ring-0 border border-[#dfdce5] bg-white focus:border-[#dfdce5] h-14 bg-[image:--select-button-svg] placeholder:text-[#6f6388] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Area</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#131118] focus:outline-0 focus:ring-0 border border-[#dfdce5] bg-white focus:border-[#dfdce5] h-14 bg-[image:--select-button-svg] placeholder:text-[#6f6388] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="one">Company</option>
+                  <option value="two">two</option>
+                  <option value="three">three</option>
+                </select>
+              </label>
+            </div>
+            <h3 class="text-[#131118] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Partner Companies</h3>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwbOl963zXmqF-fnTHNFAMgynoPbhBE34tcKUnunf91ZDc258ROSh1JZtFGud2TY4JIX9zbal1rB2_rXP0WpxXhHi7atWB-hdDWOCZ3uB-0R68ywCusesiH5ZBTxUD9rx5duDMEa7ydxCztzY2BWxtG_fQ7AvyGifPVh1JWGiElUm5ZzZ8FAB2SoLmG95NQfkjodnP0in1tJ0HgDKwiHLj0cP4cup4xM2FF9Km68z65cmyfaPptAiJHB-Pqxf_WMPxxye41j-Ho6os");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDX7FlEVdAHH9P4utn7nCVW6GUVgOvFPxRzesyTX6PfIkg3BveeGSOTV8rxE22SK-9vAuEsc5FuCqwlP9hLGP8kYR6wqd_JcWA8Rq4qQrJXVBB_0RF1bpzFNZw0JsLq6s-cQ_vfWIST1T0wpsjlCQFSA_U5vlEjEQmEGrQMs67IEay5Dcj1s-LQfoASb504HCi4AYTV1wjorZgN6KqdrfFlnkEl7rNzqFKN2Z2va2rOlDNJNTxxYPzwHXeQobpRhHdJfj-A4W1wyAx3");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBVH13jOVJjtmerEvOQ5byh4p598QlE_ij_U_UouNEiXN_lPbTPZjeQnSI01CSyI_O44SK7la-zO3FoXcpk3S9tE1PVJjLNXYEgK5LERKKjbRlSlExHHUUmJSSF6W8nUfVm28jv4PPwqAi6MufV_WfmkbgRyxfetj2yMK8iO4ddtZ68RScx90pKtOPHpoTbQi_RoHjMJ2Z290ExR1SQbkXu-C9C0FAOfn2TRfFbDYOpwCIWqeDgxpsS4qEIDSYBXwBbHQZBmGY9RFYF");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDHWZB-uss5HSmoKM_O36BgIWutse6GQmaJ3KrwmbpWuQ-nD5vVUS78efcbrlV_aXGZuWhieovUZLLpMcPXtM_2XPGkKVDsTB6cQm14wjOWX6lyy5xWRfxG1a7ihZ8lbkEtYVFQ3jLxP4VuhJJ-WaKmtevFnuweOoiiY1mOU5WHgGs7eg5NAYz4pCKIfJHO4KyVjF26M_vN-SHOONVMfn3oBacGinz2RPH30va8_kfGXtQIZtk1uyDUmt7O8cEvgn1cnMSvAXE8q-hy");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcDgPqQoPa8-Xaq0L5T455O0raOYJfoSdvU933b8hkUDKf-zYAlCqxKm0gjwHTN0WGAKUuMq96kqMNRaH15EwI0zMKr3CNy7nzG3GwrCr64NU5v66c6l1BaWbHFTrNqMD5gnnr17hgq_V7xP1TPqXWaWjqRcRntrWsCRfr0tEhXCW5N6wuxiAbYBnqsciik_chyDcHO7W0u_JELhJA35V5CRZkXUJXvWe5WGMr6ww3JYlvXE-y-4E7gCo5ixNkeqFkJtwi6eplrh2x");'
+                ></div>
+              </div>
+            </div>
+            <h3 class="text-[#131118] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Opportunities</h3>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Technology</p>
+                  <p class="text-[#131118] text-base font-bold leading-tight">Software Engineer</p>
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Company A | Remote</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBVnBixtRnvLaKT7CKLrbSkpWAYdb8H5izuMm5coSpZAPUevKV5LKRXrc9b-u6CEDVhur7gqc38MBGtnuVzbyMQ6VKjdBVp9nWJ3n6qJ5aXJYTUw0FFOS1C6X2cxNz97j0l2JNVxAxOR1hC_l-J6zRkTquh1b7t8vOTdvh-LxdPx_2ehOi2UW4oYUYzJOFupbDJgfhAHPaaAah5W8jvvHkpAaNSBEkM3WfPOac-iMmXiYYbIN0w5dtaVCjMJGROFFGAqYEeVppR_Ixx");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Marketing</p>
+                  <p class="text-[#131118] text-base font-bold leading-tight">Marketing Manager</p>
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Company B | Sao Paulo</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCmUOl2DpaR7ct5aQSJtV9c6ybyhAJ9tbx7ul3XZvhLn3GQ61tGE8Wg7WgF2TZqON7qFGIyi3RJCN-e_plG4BT5IL-9Mu4Evf-5QeO9v9K8khFhw7-Z7w6TciyAl19s4MjxF9hvuVLizSU9VVMFN0MyJZraaPtSFMSaXd5ffji5ImfqQA3AFofKb_In5uO71p7RAIoDdrDb8_x109vZpKSmbPoyUkMqdQ6HS_XviaRjaivK0e5Mp44kjKrUyaoFdbXOu-4JHBfhl-cz");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Finance</p>
+                  <p class="text-[#131118] text-base font-bold leading-tight">Financial Analyst</p>
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Company C | Rio de Janeiro</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCGHPHkyGZdvsKrv5bW-6odKIstAIqXTG3wP1iXL79ctvv5GOVyfmpsSvrlAfgvFIbJ5PmHUrXEuUpr4IzhL9W6b7HJMC_a7qaop_G5QaNmP9-H0OelL478-EulQ_kdXhc1ASXewceECzIqzW1iVpit4_Z5EQUkxY4dgLM3-FI4pTQ_2ya9fbEF48dSRaVCxS6FI2oGLdm8wonOYonf3d4Q8Y_HvVyYn4EL5HYauQqC8SZ16slESkPffAi2CjtfKPnC8A6A3ElnC_ze");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Human Resources</p>
+                  <p class="text-[#131118] text-base font-bold leading-tight">HR Specialist</p>
+                  <p class="text-[#6f6388] text-sm font-normal leading-normal">Company D | Belo Horizonte</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBlnKhrVEFyvMN8zs-BjOFhQUEgHA7gvlhbCwXIu_Ctk-BKshOEcHN6sL8CtLzKfylQvyyYbALX4yOgMlj-n8uaMshNw2lMvDXfB_zK2I3IDiDqlEOT0ls5VL_aUpcEja4HZLxXd9XnFN9WgAUzA3vKklZfhQO2hsudOkypLq4QYnEfwJvDzG1uG2QUb75bDgkbNqELbS10aBCgzCLvTkqss3dz4qE6W94uHPRZ0fqGYoKfLh3ZRQH6aPXl3hjjpXSehIyj8RxpFLwd");'
+                ></div>
+              </div>
+            </div>
+            <div class="flex items-center justify-center p-4">
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#131118]" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </a>
+              <a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-[#131118] rounded-full bg-[#f2f0f4]" href="#">1</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#131118] rounded-full" href="#">2</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#131118] rounded-full" href="#">3</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#131118] rounded-full" href="#">4</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#131118] rounded-full" href="#">5</a>
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#131118]" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
